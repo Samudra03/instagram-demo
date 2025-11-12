@@ -6,7 +6,6 @@ import { Button } from "react-bootstrap";
 export default function Header() {
   return (
     <>
-      {/* Top Bar */}
       <div
         className="d-flex justify-content-between align-items-center mb-4 px-3 py-2 shadow-sm rounded-3"
         style={{
@@ -36,7 +35,6 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Profile Section */}
       <div className="d-flex align-items-center justify-content-start gap-5 my-4 px-2">
         <div
           className="d-flex justify-content-center align-items-center rounded-circle shadow-sm"
@@ -105,7 +103,6 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Custom Hover Styles */}
       <style>
         {`
           .hover-icon:hover {
